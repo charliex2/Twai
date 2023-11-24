@@ -1,14 +1,14 @@
 {
   "package": {
-    "productName": "WeRead",
-    "version": "1.0.0"
+    "productName": "Twai",
+    "version": "0.1.0"
   },
   "tauri": {
     "security": {
       "csp": null,
       "dangerousRemoteDomainIpcAccess": [
         {
-          "domain": "weread.qq.com",
+          "domain": "twai.13243546.xyz",
           "windows": ["pake"],
           "enableTauriAPI": true
         }
@@ -18,7 +18,7 @@
       "active": false
     },
     "systemTray": {
-      "iconPath": "png/icon_512.png",
+      "iconPath": "png/twai_512.png",
       "iconAsTemplate": true
     },
     "allowlist": {

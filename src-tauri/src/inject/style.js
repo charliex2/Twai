@@ -1,6 +1,7 @@
 window.addEventListener('DOMContentLoaded', _event => {
   // Customize and transform existing functions
   const contentCSS = `
+    body::-webkit-scrollbar{width:0px;height:0px;}
     #page #footer-wrapper,
     .drawing-board .toolbar .toolbar-action,
     .c-swiper-container,
